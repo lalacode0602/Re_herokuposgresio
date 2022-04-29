@@ -1,0 +1,27 @@
+{
+  "name": "re_herokuposgresio",
+  "version": "1.0.0",
+  "description": "redo heroku postgres io tut5",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lalacode0602/Re_herokuposgresio.git"
+  },
+  "author": "Asanuma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lalacode0602/Re_herokuposgresio/issues"
+  },
+  "homepage": "https://github.com/lalacode0602/Re_herokuposgresio#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.7",
+    "express": "^4.18.0",
+    "multer": "^1.4.4",
+    "pg": "^8.7.3"
+  }
+}
